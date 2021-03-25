@@ -24,6 +24,6 @@ class App extends React.Component {
         );
     }
 };
-// Comment
+// Removing comment
 export default App;
 
