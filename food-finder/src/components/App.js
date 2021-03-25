@@ -1,7 +1,7 @@
 import React from 'react';
 import edamam from '../api/edamam';
 import SearchBar from './SearchBar';
-import ImageList from './ImageList';
+import FoodList from './FoodList';
 
 
 class App extends React.Component {
