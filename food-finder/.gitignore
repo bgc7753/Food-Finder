@@ -11,8 +11,8 @@
 # production
 /build
 
-.edamam.js
-.unsplash.js
+edamam.js
+unsplash.js
 
 # misc
 .DS_Store
