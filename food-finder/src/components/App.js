@@ -1,8 +1,9 @@
 import React from 'react';
 import Axios from 'axios';
+import './App.css';
 import SearchBar from './SearchBar';
 import FoodList from './FoodList';
-import Navbar from './Navbar';
+import Navbar from './Navbar/Navbar';
 
 const APP_ID = process.env.REACT_APP_FOOD_ID;
 
@@ -27,10 +28,12 @@ class App extends React.Component {
     
     render() {
         return (
-    <div className="ui container" style={{marginTop: '10px'}}>
+    <div>  
         <Navbar />
+        <div className="ui container" style={ {margin: "25px"}}>
         <SearchBar onSubmit={this.onSearchSubmit} />
         <FoodList recipes={this.state.recipes} />
+        </div>
     </div>
         );
     }
