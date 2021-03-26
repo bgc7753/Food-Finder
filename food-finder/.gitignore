@@ -25,3 +25,5 @@ yarn-error.log*
 
 # API Ignore
 src/api/edamam.js
+
+.env
