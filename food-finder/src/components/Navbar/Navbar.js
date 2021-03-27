@@ -13,7 +13,7 @@ class Navbar extends React.Component {
         return(
             <nav className="NavbarItems">
                 <h1 className="navbar-logo">
-                    Food Finder<i className="fas fa-utensils"></i>
+                    <a href="/">Food Finder</a><i className="fas fa-utensils"></i>
                 </h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>

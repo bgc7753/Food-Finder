@@ -1,9 +1,11 @@
 import React from 'react';
 import Axios from 'axios';
 import './App.css';
-import SearchBar from './SearchBar';
-import FoodList from './FoodList';
 import Navbar from './Navbar/Navbar';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+import Home from './Pages/Home';
+import RecipeSearch from './Pages/RecipeSearch';
+
 
 const APP_ID = process.env.REACT_APP_FOOD_ID;
 
@@ -30,10 +32,15 @@ class App extends React.Component {
         return (
     <div>  
         <Navbar />
-        <div className="ui container" style={ {margin: "25px"}}>
-        <SearchBar onSubmit={this.onSearchSubmit} />
-        <FoodList recipes={this.state.recipes} />
-        </div>
+        <Router>
+        {/* <div className="ui container" style={ {margin: "25px"}}> */}
+        {/* </div> */}
+        <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/search" component={RecipeSearch} />
+        </Switch>
+        
+        </Router>
     </div>
         );
     }

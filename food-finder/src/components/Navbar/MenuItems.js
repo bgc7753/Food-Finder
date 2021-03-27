@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'Recipe Search',
-        url: '#',
+        url: 'search',
         cName: 'nav-links'
     },
     {
