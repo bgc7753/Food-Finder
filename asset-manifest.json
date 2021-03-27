@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Food-finder/static/css/main.507cd910.chunk.css",
+    "main.js": "/Food-finder/static/js/main.3a4a10e2.chunk.js",
+    "main.js.map": "/Food-finder/static/js/main.3a4a10e2.chunk.js.map",
+    "runtime-main.js": "/Food-finder/static/js/runtime-main.a45ed514.js",
+    "runtime-main.js.map": "/Food-finder/static/js/runtime-main.a45ed514.js.map",
+    "static/js/2.118c721a.chunk.js": "/Food-finder/static/js/2.118c721a.chunk.js",
+    "static/js/2.118c721a.chunk.js.map": "/Food-finder/static/js/2.118c721a.chunk.js.map",
+    "index.html": "/Food-finder/index.html",
+    "static/css/main.507cd910.chunk.css.map": "/Food-finder/static/css/main.507cd910.chunk.css.map",
+    "static/js/2.118c721a.chunk.js.LICENSE.txt": "/Food-finder/static/js/2.118c721a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Food-finder/static/media/cooking.b573d8fd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a45ed514.js",
+    "static/js/2.118c721a.chunk.js",
+    "static/css/main.507cd910.chunk.css",
+    "static/js/main.3a4a10e2.chunk.js"
+  ]
+}
