@@ -24,7 +24,8 @@ img {
   justify-self: center;
   height: 300px;
   margin: 3rem;
-  font-size: 5vh;
+  font-size: 14px;
+  line-height: 5px;
 }
 
 .recipelink {
@@ -40,8 +41,9 @@ img {
 .mealType {
   font-style: italic;
   color: gray;
+  padding: 10px 0xp;
 }
 
 .calories {
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
