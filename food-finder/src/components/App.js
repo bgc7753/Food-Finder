@@ -21,7 +21,9 @@ class App extends React.Component {
             params: {
                 q: term,
                 app_id: APP_ID,
-                app_key: APP_KEY
+                app_key: APP_KEY,
+                from: 0,
+                to: 10
             }     
         });
 

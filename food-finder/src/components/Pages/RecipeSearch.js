@@ -27,12 +27,10 @@ class RecipeSearch extends React.Component {
     
     render() {
         return (
-            <div>  
             <div className="ui container" style={ {margin: "25px"}}>
             <SearchBar onSubmit={this.onSearchSubmit} />
             <FoodList recipes={this.state.recipes} />
             </div>
-        </div>
         );
     }
 };

@@ -13,7 +13,7 @@ class SearchBar extends React.Component {
         return (
         <div className="ui segment">
             <form onSubmit={this.onFormSubmit} className="ui form">
-                <div className="field"><label>Enter a Recipe Search Below</label>
+                <div className="field"><label>Enter a Food Item Below</label>
                 <input 
                 type='text' 
                 value={this.state.term}

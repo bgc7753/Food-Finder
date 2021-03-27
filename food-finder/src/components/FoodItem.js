@@ -1,17 +1,23 @@
 import React from 'react';
+import './FoodList';
 
 const FoodItem = ({recipe}) => {
-    const {label, image, url, ingredients } = recipe.recipe;
+    const {label, image, url, calories, mealType } = recipe.recipe;
+    const cal = Math.round(Number(calories));
     return (        
     <div className="card">
-        <h4>{label}</h4>
         <div className="image">
-        <img src={image} alt={label}/>
-        </div>
         <a href={url} target="_blank" rel="nooperner noreferrer">
-            Recipe
+        <img src={image} alt={label}/>
         </a>
-        <button>Ingredients</button>
+        </div>
+        <span className="recipelink"><a href={url} target="_blank" rel="nooperner noreferrer">
+            {label}
+        </a>
+        </span>
+        <div className="calories">Calories: {cal}</div>
+        <div className="mealType">{mealType}</div>
+        
     </div>
     );
 };
