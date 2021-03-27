@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Food-Finder/static/css/main.a2347f33.chunk.css",
-    "main.js": "/Food-Finder/static/js/main.3a4a10e2.chunk.js",
-    "main.js.map": "/Food-Finder/static/js/main.3a4a10e2.chunk.js.map",
+    "main.js": "/Food-Finder/static/js/main.f7790c11.chunk.js",
+    "main.js.map": "/Food-Finder/static/js/main.f7790c11.chunk.js.map",
     "runtime-main.js": "/Food-Finder/static/js/runtime-main.ff8e151f.js",
     "runtime-main.js.map": "/Food-Finder/static/js/runtime-main.ff8e151f.js.map",
     "static/js/2.118c721a.chunk.js": "/Food-Finder/static/js/2.118c721a.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ff8e151f.js",
     "static/js/2.118c721a.chunk.js",
     "static/css/main.a2347f33.chunk.css",
-    "static/js/main.3a4a10e2.chunk.js"
+    "static/js/main.f7790c11.chunk.js"
   ]
 }
