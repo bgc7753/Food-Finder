@@ -1,21 +1,22 @@
 import React from 'react';
 import FoodList from '../FoodList';
+import Axios from 'axios';
 
 
 class Favorites extends React.Component {
     state = { recipes: [] };
 
-    // componentDidMount = async () => {
-    //     const response = await Axios.get(url, {
-    //         params: {
-    //             q: term,
-    //             app_id: APP_ID,
-    //             app_key: APP_KEY
-    //         }     
-    //     });
+    componentDidMount = async () => {
+        Axios.get('http://localhost:5000/recipes/')
+            .then(response => {
+                console.log(response.data)
+                this.setState({ recipes: response.data })
+                })
+            .catch((err) => {
+                console.log(err);
+            })
 
-    //     this.setState({recipes: response.data.hits });
-    // }
+    }
 
 
     render() {
