@@ -5,6 +5,7 @@ import Navbar from './Navbar/Navbar';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 import Home from './Pages/Home';
 import RecipeSearch from './Pages/RecipeSearch';
+import RandomRest from './Pages/RandomRest';
 
 
 const APP_ID = process.env.REACT_APP_FOOD_ID;
@@ -40,6 +41,7 @@ class App extends React.Component {
         <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/search" component={RecipeSearch} />
+        <Route path="/randomrest" component={RandomRest} />
         </Switch>
         
         </Router>
