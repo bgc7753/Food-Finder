@@ -12,12 +12,12 @@ class RecipeSearch extends React.Component {
     state = { recipes: [] };
 
     componentDidMount = async () => {
-        const response = await fetch(`/.netlify/functions/token-hider?term=${defaultTerm}`).then(res => res.json());
+        const response = await fetch(`/.netlify/functions/recipe-search?term=${defaultTerm}`).then(res => res.json());
         this.setState({recipes: response.hits });
     }
 
     onSearchSubmit = async (term) => {
-        const response = await fetch(`/.netlify/functions/token-hider?term=${term}`).then(res => res.json());
+        const response = await fetch(`/.netlify/functions/recipe-search?term=${term}`).then(res => res.json());
         this.setState({recipes: response.hits });
     }
 
