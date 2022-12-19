@@ -5,7 +5,6 @@ import {v4 as uuidv4} from 'uuid';
 
 const FoodList = (props) => {
     const recipes = props.recipes.map(food => <FoodItem key={uuidv4()} recipe={food} />)
-    console.log(props.recipes);
 
     return <div className="food-list">{recipes}</div>
 }
