@@ -28,6 +28,6 @@ class Favorites extends React.Component {
             
         );
     }
-};
+}
 
 export default Favorites;

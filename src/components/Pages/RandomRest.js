@@ -10,6 +10,6 @@ class RandomRest extends React.Component {
             
         );
     }
-};
+}
 
 export default RandomRest;

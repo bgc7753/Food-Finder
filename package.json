@@ -22,6 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "lint": "./node_modules/.bin/eslint --fix src",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -43,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
     "netlify-cli": "^12.4.0"
   }
 }

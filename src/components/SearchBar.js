@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class SearchBar extends React.Component {
     state = { term: '' };
@@ -7,6 +8,12 @@ class SearchBar extends React.Component {
         event.preventDefault();
 
         this.props.onSubmit(this.state.term);
+    }
+
+    static get propTypes() { 
+        return { 
+            onSubmit: PropTypes.func 
+        }; 
     }
 
     render() {

@@ -28,7 +28,7 @@ class RecipeSearch extends React.Component {
             </div>
         );
     }
-};
+}
 
 export default RecipeSearch;
 
